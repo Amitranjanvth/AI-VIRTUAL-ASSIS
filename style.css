@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: "Winky Sans", sans-serif;
+}
+body{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(./360_F_323829966_H32wLhoouiPinJ66KyggCvqQ2dFPuuQ1.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container2{
+    background-color: rgba(234, 223, 223,0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-transform: capitalize;
+    font-size: 24px;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 20px 20px 20px rgba(188, 12, 12, 0.6); ;
+}
+#listen{
+    margin-top: 10px;
+    padding: 11px 21px;
+    font-size: 25px;
+    border-radius: 50%;
+    box-shadow: 10px 10px 10px rgba(32, 206, 130, 0.4);
+}
+#listen:hover{
+    border: 1px solid black;
+    transform: scale(1.4);
+    cursor: pointer;
+    background: linear-gradient(to right, #002b9d,#34ffea );
+}
